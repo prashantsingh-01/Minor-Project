@@ -45,15 +45,36 @@
         <form action="/">
           <div class="input__group">
             <label for="arrival">Arrival Date</label>
-            <input type="text" placeholder="Your Arrival Date" />
+            <input type="date" placeholder="Your Arrival Date" />
           </div>
           <div class="input__group">
             <label for="departure">Departure Date</label>
-            <input type="text" placeholder="Your Departure Date" />
+            <input type="date" placeholder="Your Departure Date" />
           </div>
           <div class="input__group">
             <label for="guests">Guests</label>
             <input type="text" placeholder="No Of Guests" />
+          </div>
+          <div class="input__group">
+            <label for="hotels">Hotels</label>
+            <select id="hotels" name="hotels">
+              <option value="">Select Your Hotel</option>
+              <option value="delhi">Delhi</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="pune">Pune</option>
+              <option value="gurugram">Gurugram</option>
+              <option value="noida">Noida</option>
+              <option value="dehradun">Dehradun</option>
+              <option value="jaipur">Jaipur</option>
+              <option value="goa">Goa</option>
+              <option value="nanital">Nanital</option>
+              <option value="shimla">Shimla</option>
+              <option value="chandigarh">Chandigarh</option>
+              <option value="manali">Manali</option>
+              <option value="jibli">Jibli</option>
+              <option value="kasauli">Kasauli</option>
+              <option value="mussorie">Mussorie</option>
+            </select>
           </div>
           <button class="btn">Check Availability</button>
         </form>
